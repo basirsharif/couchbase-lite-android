@@ -94,7 +94,7 @@ public class LiveQueryTest extends BaseTest {
         // Ya, I know...
         Thread.sleep(1000);
 
-        assertEquals(1, value.get());
+        assertEquals(2, value.get());
     }
 
     // Changing query parameters should cause an update.
